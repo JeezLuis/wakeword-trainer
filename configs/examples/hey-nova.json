@@ -1,0 +1,169 @@
+{
+  "name": "hey_nova",
+  "phrase": "Hey Nova",
+  "description": "Example: an English wake word for a home assistant.",
+  "language": "en",
+  "positive": {
+    "en": [
+      "Hey Nova.",
+      "Hey, Nova.",
+      "Hey Nova",
+      "Hey Nova!",
+      "hey nova"
+    ]
+  },
+  "adversarial": {
+    "en": [
+      "Hey.",
+      "Nova.",
+      "Hey, Jack.",
+      "Hey, Emma.",
+      "Hey, Nora.",
+      "Hey, Tom.",
+      "Hey, sova.",
+      "Hey, dova.",
+      "Hey, lova.",
+      "Hey, novi.",
+      "I was talking about nova yesterday.",
+      "Is nova the right one?",
+      "Nova is not here.",
+      "Hey Siri.",
+      "OK Google.",
+      "Hey Google.",
+      "Alexa."
+    ]
+  },
+  "sentences": {
+    "en": [
+      "What time is it?",
+      "Can you turn the lights off?",
+      "I need to buy milk tomorrow.",
+      "Put on some music, please.",
+      "Turn the volume up a little.",
+      "Stop the music for a second.",
+      "What is the weather like today?",
+      "Let's go for a walk after lunch.",
+      "Where did I leave my keys?",
+      "Set a timer for ten minutes.",
+      "Hello, how are you doing?",
+      "Thanks, that is all for now.",
+      "Could you repeat that, please?",
+      "Go back to the previous step.",
+      "What is the next step?",
+      "I will be right back.",
+      "The meeting starts at three.",
+      "Can you call my mother?",
+      "I don't know what happened.",
+      "Did you feed the cat?",
+      "The kitchen is a mess.",
+      "Open the window, it is hot in here.",
+      "Remind me to water the plants.",
+      "How long does it take to get there?",
+      "That's a really good idea.",
+      "Wait a moment, I am washing my hands.",
+      "We should clean the garage this weekend.",
+      "Read me the last message.",
+      "Turn off the TV.",
+      "Good morning, did you sleep well?",
+      "I think it is going to rain.",
+      "Pass me the screwdriver.",
+      "Write that down in the notes.",
+      "How much does it cost?",
+      "See you later.",
+      "Okay, sounds good.",
+      "Where is the remote?",
+      "Make it a bit warmer in here.",
+      "Pause it for a moment.",
+      "Can you help me with this?"
+    ]
+  },
+  "voices": [
+    {
+      "id": "en_US-libritts_r-medium",
+      "speakers": 904,
+      "pos": 900,
+      "adv": 300,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-vctk-medium",
+      "speakers": 109,
+      "pos": 654,
+      "adv": 262,
+      "sent": 40
+    },
+    {
+      "id": "en_US-l2arctic-medium",
+      "speakers": 24,
+      "pos": 144,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_US-arctic-medium",
+      "speakers": 18,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-aru-medium",
+      "speakers": 12,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-semaine-medium",
+      "speakers": 4,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-cori-high",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_US-lessac-high",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-alan-medium",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_US-ljspeech-high",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_GB-alba-medium",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    },
+    {
+      "id": "en_US-ryan-high",
+      "speakers": 1,
+      "pos": 120,
+      "adv": 100,
+      "sent": 40
+    }
+  ],
+  "holdoutVoices": [
+    "en_US-ryan-high"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "wakeword-trainer",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Train custom openWakeWord wake word models locally, guided by a web app: synthetic voices with Piper, your own recordings, music and noise, and a small network exported to ONNX",
+  "keywords": [
+    "wake word",
+    "hotword",
+    "openwakeword",
+    "piper",
+    "onnx",
+    "speech"
+  ],
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node src/server.ts",
+    "setup": "node src/setup.ts",
+    "generate": "node src/generate.ts",
+    "features": "node src/features.ts",
+    "train": "node src/train.ts",
+    "test-clip": "node src/test-clip.ts",
+    "compare": "node src/compare.ts",
+    "mix-test-audio": "node src/mix-test-audio.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mintplex-labs/piper-tts-web": "1.0.5",
+    "onnx-proto": "8.0.1",
+    "onnxruntime-node": "1.22.0",
+    "onnxruntime-web": "1.31.1",
+    "playwright": "1.64.1",
+    "vite": "7.3.7"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "~5.8.3"
+  }
+}

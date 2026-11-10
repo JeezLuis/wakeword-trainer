@@ -1,0 +1,9 @@
+node_modules/
+# Training data (downloads, generated speech, features, recordings): large and re-creatable
+data/
+# Trained models
+out/
+# Your own wake word configs (created by the app). Examples live in configs/examples/.
+configs/*.json
+*.log
+.DS_Store
