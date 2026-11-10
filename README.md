@@ -119,9 +119,11 @@ See [`configs/examples/hey-nova.json`](configs/examples/hey-nova.json). Configs 
 - **A download was interrupted**: run Setup again; it resumes.
 - **Piper voices download slowly the first time**: each voice is 20–120 MB, fetched from Hugging Face once and cached (by the headless browser in `data/browser/`, and separately by your own browser for the ▶ previews).
 
-## Data and licenses
+## License
 
-This repository contains code only. The data it downloads has its own terms; check them before distributing models:
+The code is released under the [MIT License](LICENSE): use it, change it and share it freely.
+
+This repository contains code only. The data it downloads has its own terms; check them before distributing the models you train:
 
 - Piper voices: each voice has its own license (see its model card on Hugging Face); several are trained on datasets for non-commercial use.
 - [GTZAN](https://huggingface.co/datasets/marsyas/gtzan): research dataset of copyrighted music.

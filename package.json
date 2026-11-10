@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "description": "Train custom openWakeWord wake word models locally, guided by a web app: synthetic voices with Piper, your own recordings, music and noise, and a small network exported to ONNX",
+  "license": "MIT",
   "keywords": [
     "wake word",
     "hotword",
